@@ -1,0 +1,37 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Backup files
+*.bak
+*.backup
+*.broken-backup
+*_backup.py
+
+# Results and generated outputs
+results/
+*.json
+*.log
+
+# Model weights and large model files
+*.safetensors
+*.engine
+*.onnx
+*.pt
+*.pth
+
+# Compiled executables
+convert_yolo11
+convert_yolo11m
+plate_test
+plate_test_yolo11m
+plate_snapshot_yolo11m
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
